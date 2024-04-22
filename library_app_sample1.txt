@@ -1,0 +1,196 @@
+PS C:\python\unit  1> & C:/Users/taran/AppData/Local/Programs/Python/Python312/python.exe "c:/python/unit  1/library_app.py"
+Starting the system...
+Enter book catalog filename: books.csv
+Book catalog has been loaded.
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 1
+
+-- Search for books --
+Enter search value: Homer
+No matching books found.
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 1
+
+-- Search for books --
+Enter search value: Homer
+No matching books found.
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 1
+
+-- Search for books --
+Enter search value: Homer
+No matching books found.
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 1
+
+-- Search for books --
+Enter search value: Tolkien
+ISBN          Title                              Author                   Genre               Availability
+978-0350000000The Hobbit                         J.R.R. Tolkien           Fantasy             Available
+978-0540000000The Lord of the Rings              J.R.R. Tolkien           Fantasy             Available
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 1
+
+-- Search for books --
+Enter search value: fiction
+ISBN          Title                              Author                   Genre               Availability
+978-1570000000The Kite Runner                    Khaled Hosseini          Historical Fiction  Available
+978-0760000000Brave New World                    Aldous Huxley            Science Fiction     Available
+978-0450000000Gone with the Wind                 Margaret Mitchell        Historical Fiction  AvailableReader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 1
+
+-- Search for books --
+Enter search value: pride
+ISBN          Title                              Author                   Genre               Availability
+978-0140000000Pride and Prejudice                Jane Austen              Romance             Available
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 2
+
+-- Borrow a book --
+Enter the 13-digit ISBN (format 999-9999999999): 500-1234
+No book found with that ISBN.
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 2
+
+-- Borrow a book --
+Enter the 13-digit ISBN (format 999-9999999999): 978-0140000000
+Pride and Prejudice with ISBN 978-0140000000 successfully borrowed.
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 2
+
+-- Borrow a book --
+Enter the 13-digit ISBN (format 999-9999999999): 978-0450000000
+Gone with the Wind with ISBN 978-0450000000 successfully borrowed.
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 3
+
+-- Return a book --
+Enter the 13-digit ISBN (format 999-9999999999): 500-1234
+No book found with that ISBN.
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 3
+
+-- Return a book --
+Enter the 13-digit ISBN (format 999-9999999999): 978-0760000000
+'Brave New World' with ISBN 978-0760000000 is not currently borrowed.
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 3
+
+-- Return a book --
+Enter the 13-digit ISBN (format 999-9999999999): 978-0070000000
+'The Chronicles of Narnia' with ISBN 978-0070000000 is not currently borrowed.
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 4
+Invalid option
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: x
+Invalid option
+
+
+Reader's Guild Library - Main Menu
+ ==================================
+1: Search for books
+2: Borrow a book
+3: Return a book
+0: Exit the system
+Enter your selection: 0
+
+-- Exit the system --
+Book catalog has been saved.
+Good Bye!
+PS C:\python\unit  1> 
