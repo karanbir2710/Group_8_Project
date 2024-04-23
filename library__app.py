@@ -155,7 +155,7 @@ def remove_book(book_list): # Taranpreet Kaur
         print(f"'{book_list[book_idx].get_title()}' with ISBN {isbn} successfully removed.")
         book_list.pop(book_idx)
        
-def print_books(print_list): # Yash
+def print_books(print_list): # Yash Kumar
     print("{:<14s} {:<25s} {:<25s} {:<20s} {:<s}".format("ISBN", "Title", "Author", "Genre", "Availability"))
     print("{:<14s} {:<25s} {:<25s} {:<20s} {:<s}".format("-"*14, "-"*25, "-"*25, "-"*20, "-"*12))
     for book in print_list:
